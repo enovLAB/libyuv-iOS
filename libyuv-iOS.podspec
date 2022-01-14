@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     	= "https://chromium.googlesource.com/libyuv/libyuv/"
   s.author       	= 'The LibYuv Project Authors'
   s.source       	= { :git => "https://github.com/waitingsnow/libyuv-iOS.git", :tag => "#{s.version}" }
-  s.platform     	= :ios, '8.0'
+  s.platform     	= :ios, '9.0'
   s.description  	= "libyuv is an open source project that includes YUV scaling and conversion functionality."
 
   s.source_files = 'headers/*.h', 'headers/libyuv/*.h'
